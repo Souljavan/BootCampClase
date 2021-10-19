@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+</head>
+<body>
+	<form action="https://reqres.in/api/users" method="POST" autocomplete="off">
+		<fieldset>
+			<legend>Datos Personales:</legend>
+
+			<Label for="name">Nombre: </Label>
+			<input type="text" name="name" id="name" required>
+
+			<label for="lname">Apellido:</label>
+			<input type="text" name="lname" id="lname">
+
+			<label for="city">¿Dónde Vives?:</label>
+			<select id="city" name="city">
+				<option value="Madrid">Madrid</option>
+				<option value="Barcelona">Barcelona</option>
+				<option value="Valencia">Valencia</option>
+			</select>
+
+			<br>
+
+			<label for="email">Email:</label>
+			<input type="text" name="email" id="email">
+
+			<label for="user">Usuario:</label>
+			<input type="text" name="user" id="user" minlength="4" maxlength="10">
+
+			<label for="pwd">Password:</label>
+			<input type="password" name="pwd" id="pwd">
+
+			<br>
+			
+			<label for="dateofbirth">Fecha de Nacimiento:</label>
+			<input type="date" name="dateofbirth" id="dateofbirth" max="2021-12-31">
+
+			<label for="fcolor">Color Favorito:</label>
+			<input type="color" name="fcolor" id="fcolor">
+
+			<br>
+
+			<label for="message">Tu mensaje:</label><br>
+			<textarea id="message" name="message" rows="5" cols="40" placeholder="Escribe aquí tu mensaje"></textarea>
+
+		</fieldset>
+
+		<fieldset>
+
+			<legend>Preferencias:</legend>
+
+			<label for="vip">¿Quieres ser vip?:</label>
+			<input type="checkbox" name="vip" id="vip">
+
+			<label for="fav_language">Selecciona tu lenguaje de programación favorito:</label>
+			<br>
+			<label for="html">
+				<input type="radio" id="html" name="fav_language" value="html"> HTML
+			</label>
+			<br>
+			<label for="css">
+				<input type="radio" id="css" name="fav_language" value="css"> CSS
+			</label>
+			<br>
+			<label for="Javascript">
+				<input type="radio" id="Javascript" name="fav_language" value="Javascript"> JavaScript
+			</label>
+			
+		</fieldset>
+		
+		<br>
+		<button type="submit">Enviar</button>
+
+	</form>
+</body>
+</html>

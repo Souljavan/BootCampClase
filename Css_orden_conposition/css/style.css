@@ -1,0 +1,25 @@
+#parent{
+background-color: blue;
+height: 250px;
+width: 100%;
+position: relative;
+}
+
+#child1{
+    background-color: coral;
+    height: 70px;
+    width:90%;
+    position: absolute;
+}
+
+#child2{
+    background-color:darkgreen;
+    height: 70px;
+    width:90%
+}
+
+#child3{
+    background-color: rgb(7, 39, 97);
+    height: 70px;
+    width:90%
+}

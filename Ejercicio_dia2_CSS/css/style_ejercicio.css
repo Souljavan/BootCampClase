@@ -1,0 +1,30 @@
+#azul{
+    background-color: blue;
+    width:200px;
+    height: 200px;
+    border:10px;
+    border-color: yellow;
+    border-style: solid;
+    margin-left: 10px;
+    padding:20px;
+}
+
+#blanco{
+    background-color:white;
+    width:200px;
+    height: 200px;
+    border:20px;
+    border-color:orange;
+    border-style: solid;
+    margin-left: 270px;
+}
+
+#rojo{
+    background-color: red;
+    width:200px;
+    height: 200px;
+    border:10px;
+    border-color:green;
+    border-style: solid;
+    margin-left: 510px;
+}

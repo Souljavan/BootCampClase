@@ -1,0 +1,123 @@
+/*********Selectores por etiqueta***********/
+
+body{
+    background-color:lightblue;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+nav{
+    background-color: grey;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+/*********Selectores por clase***********/
+
+.azul{
+    color:blue
+}
+
+.text-container{
+   margin:0 auto;
+   margin-top: 50px;
+}
+
+.img-container{
+    width: 200px;
+    margin-left: 50px;
+  
+}
+
+.img-container img{
+    width:200px;
+}
+
+.tablaaar{
+    width:400px;
+    border: 1px;
+    border-style: solid;
+    margin:0 auto;
+
+}
+
+/*********Selectores por id***********/
+
+#General{
+    background-color:grey
+}
+
+#ImagenPrincipial{
+    background-image: url("https://cnnespanol.cnn.com/wp-content/uploads/2019/03/http___cdn.cnn_.com_cnnnext_dam_assets_190312180104-time-out-most-exciting-city-2019-ny-credit-micha-ludwiczak-1-super-tease.jpg?quality=100&strip=info");
+    height:800px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+    #ImagenPrincipial{
+     height:500px;
+    }
+    
+}
+
+#texto {
+    font-size: 60px;
+    color:white;
+    font-weight: bold;
+    background-color: tomato;
+
+}
+
+#cabecera1{
+    display: flex;
+    margin-top: 50px;
+}
+
+#tablacentral{
+   margin:20px 0px 20px 0px; 
+}
+#textocentral{
+    font-size: 10px;
+}
+
+@media (max-width: 800px) {
+    #textocentral{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    #textocentral{
+        font-size: 14px;
+    }
+    
+}
+
+
+
+/*********Selectores por relacion***********/
+nav a{
+    color:white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/*********Pseudo clase***********/
+nav a:hover{
+    background-color: blue;
+    padding:5px;
+}
